@@ -1,0 +1,38 @@
+@import './variables';
+@import './common.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: $default-fz;
+    font-family: $default-ff;
+    color: $default-clr;
+}
+
+button,
+input {
+    display: block;
+    font-size: $default-fz;
+    font-family: $default-ff;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+fieldset {
+    border: none;
+}
+
+a {
+    color: $default-clr;
+}

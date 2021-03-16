@@ -1,0 +1,39 @@
+@import '../../styles/variables';
+
+.toolbar {
+    $border: 0.1rem solid $light-clr-300;
+
+    padding: $p-xs;
+    border-top: $border;
+    border-bottom: $border;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__categories {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    &__search {
+        max-width: 35rem;
+        width: 100%;
+    }
+
+    &__button {
+        &--active {
+            background-color: $light-clr-100;
+            border: 0.1rem solid $tertiary-clr-500;
+            color: $default-clr;
+            cursor: default;
+
+            &:hover {
+                background-color: $light-clr-100;
+            }
+        }
+    }
+}

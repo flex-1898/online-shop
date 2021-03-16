@@ -1,0 +1,36 @@
+// Colors
+$dark-clr-800: #2c2c2c;
+$dark-clr-900: #0c0c0c;
+
+$light-clr-100: #fff;
+$light-clr-200: #f6f6f6;
+$light-clr-300: #ccc;
+
+$primary-clr-500: #c02425;
+$secondary-clr-500: #f0cb35;
+$tertiary-clr-500: $dark-clr-800;
+
+// Fonts
+$primary-ff: 'Montserrat', sans-serif;
+$fz-xs: 1rem;
+$fz-sm: 1.4rem;
+$fz-md: 1.6rem;
+$fz-lg: 2rem;
+
+// Gutters
+$p-xs: 1rem;
+$p-sm: 1.5rem;
+$p-md: 2rem;
+$p-lg: 2.5rem;
+$p-xl: 3rem;
+
+$m-xs: 1rem;
+$m-sm: 1.5rem;
+$m-md: 2rem;
+$m-lg: 2.5rem;
+$m-xl: 3rem;
+
+// Defaults
+$default-fz: $fz-md;
+$default-ff: $primary-ff;
+$default-clr: $dark-clr-900;

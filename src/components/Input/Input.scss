@@ -1,0 +1,8 @@
+@import '../../styles/variables';
+
+.input {
+    width: 100%;
+    padding: $p-sm;
+    border: 0.1rem solid $light-clr-300;
+    border-radius: 0.3rem;
+}

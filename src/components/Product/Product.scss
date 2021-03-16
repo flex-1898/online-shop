@@ -1,0 +1,117 @@
+@import '../../styles/variables';
+
+.product {
+    padding: $p-sm;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 1.2rem rgba($dark-clr-900, 0.15);
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: $m-xs;
+    }
+
+    &__category {
+        font-size: $fz-md;
+        font-weight: 600;
+    }
+
+    &__image-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25rem;
+        margin-bottom: $m-xs;
+    }
+
+    &__image {
+        height: 100%;
+        object-fit: contain;
+
+        &--hidden {
+            display: none;
+        }
+    }
+
+    &__info {
+        margin-bottom: $m-sm;
+    }
+
+    &__manufacturer {
+        font-size: $fz-lg;
+        font-weight: 600;
+    }
+
+    &__model {
+        font-size: 3rem;
+        font-weight: 600;
+        color: $primary-clr-500;
+    }
+
+    &__country {
+        margin-bottom: $m-sm;
+    }
+
+    &__warranty {
+        display: block;
+        margin-bottom: $m-sm;
+    }
+
+    &__description {
+        background-color: #f6f6f6;
+        padding: $p-xs;
+        border-radius: 0.3rem;
+    }
+
+    &__footer {
+        display: flex;
+        padding-top: $p-sm;
+        border-top: 0.1rem solid $light-clr-300;
+    }
+
+    &__price-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    &__label {
+        font-weight: 600;
+    }
+
+    &__currency {
+        font-size: $fz-lg;
+        font-weight: 600;
+        color: $primary-clr-500;
+    }
+
+    &__actions {
+        display: flex;
+        padding-left: $p-sm;
+        border-left: 0.1rem solid $light-clr-300;
+    }
+
+    &__button {
+        $size: 5.5rem;
+
+        padding: 0;
+        border-radius: 50%;
+        width: $size;
+        height: $size;
+        outline: 0;
+
+        &:first-child {
+            margin-right: $m-xs;
+        }
+    }
+
+    &__icon {
+        font-size: $fz-lg;
+    }
+
+    &__icon.fa-heart {
+        transform: translateY(0.1rem);
+    }
+}

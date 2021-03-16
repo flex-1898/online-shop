@@ -1,0 +1,11 @@
+@import '../../styles/variables';
+
+.footer {
+    padding: $p-sm;
+    text-align: center;
+
+    &__copyright {
+        font-size: $fz-sm;
+        font-weight: 600;
+    }
+}

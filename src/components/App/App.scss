@@ -1,0 +1,27 @@
+@import '../../styles/variables';
+
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__content {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    &__sidebar {
+        width: 30rem;
+        flex-shrink: 0;
+    }
+
+    &__main {
+        flex-grow: 1;
+        padding: $p-md;
+    }
+
+    &__pagination {
+        margin-top: $m-md;
+    }
+}

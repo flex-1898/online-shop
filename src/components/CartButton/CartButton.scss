@@ -1,0 +1,36 @@
+@import '../../styles/variables';
+
+.cart-button {
+    position: relative;
+
+    &__quantity {
+        $size: 2rem;
+
+        font-size: $fz-xs;
+        display: flex;
+        width: $size;
+        height: $size;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: $light-clr-100;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: 0.1rem solid $tertiary-clr-500;
+    }
+
+    &__button {
+        $size: 5.5rem;
+
+        padding: 0;
+        border-radius: 50%;
+        width: $size;
+        height: $size;
+        outline: 0;
+    }
+
+    &__icon {
+        font-size: $fz-lg;
+    }
+}
